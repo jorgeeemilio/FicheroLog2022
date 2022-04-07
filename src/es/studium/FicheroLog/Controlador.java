@@ -33,10 +33,12 @@ public class Controlador implements WindowListener, ActionListener
 		}
 		else if(menuPrincipal.ventana.isActive())
 		{
+			modelo.guardarLog(usuario,"Logout");
 			System.exit(0);
 		}
 		else
 		{
+			modelo.guardarLog(usuario,"Logout");
 			System.exit(0);
 		}
 	}
